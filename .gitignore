@@ -96,6 +96,7 @@ logs
 results
 node_modules
 .node_history
+.cache/
 
 ############################
 # Package managers
@@ -126,6 +127,6 @@ license.txt
 exports
 .strapi
 dist
-build
+build/
 .strapi-updater.json
 .strapi-cloud.json

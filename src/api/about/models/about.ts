@@ -1,0 +1,18 @@
+export default {
+  kind: 'singleType',
+  collectionName: 'about',
+  info: { singularName: 'about', pluralName: 'abouts', displayName: 'About' },
+  options: { draftAndPublish: false },
+  attributes: {
+    name: { type: 'string', required: true },
+    jobTitle: { type: 'string', required: true },
+    heroTagline: { type: 'text' },
+    bio: { type: 'text', required: true },
+    profileImage: { type: 'media', multiple: false },
+    aboutImage: { type: 'media', multiple: false },
+    yearsOfExperience: { type: 'string' },
+    happyClients: { type: 'string' },
+    projectsCompleted: { type: 'string' },
+    languages: { type: 'json' },
+  },
+};

@@ -1,0 +1,14 @@
+export default {
+  kind: 'collectionType',
+  collectionName: 'experiences',
+  info: { singularName: 'experience', pluralName: 'experiences', displayName: 'Experience' },
+  options: { draftAndPublish: false },
+  attributes: {
+    year: { type: 'string', required: true },
+    title: { type: 'string', required: true },
+    company: { type: 'string', required: true },
+    type: { type: 'string' },
+    description: { type: 'text' },
+    order: { type: 'integer', default: 0 },
+  },
+};
