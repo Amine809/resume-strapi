@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "certificates",
+  "info": {
+    "singularName": "certificate",
+    "pluralName": "certificates",
+    "displayName": "Certificate"
+  },
+  "options": { "draftAndPublish": false },
+  "pluginOptions": {},
+  "attributes": {
+    "title":         { "type": "string", "required": true },
+    "issuer":        { "type": "string", "required": true },
+    "date":          { "type": "string" },
+    "credentialUrl": { "type": "string" },
+    "image":         { "type": "media", "multiple": false },
+    "order":         { "type": "integer", "default": 0 }
+  }
+}
