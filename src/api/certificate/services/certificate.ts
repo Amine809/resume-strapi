@@ -1,2 +1,2 @@
 import { factories } from '@strapi/strapi';
-export default factories.createCoreService('api::certificate.certificate');
+export default factories.createCoreService('api::certificate.certificate' as any);

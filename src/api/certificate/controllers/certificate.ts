@@ -1,2 +1,2 @@
 import { factories } from '@strapi/strapi';
-export default factories.createCoreController('api::certificate.certificate');
+export default factories.createCoreController('api::certificate.certificate' as any);
