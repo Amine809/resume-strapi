@@ -9,11 +9,11 @@
   "options": { "draftAndPublish": false },
   "pluginOptions": {},
   "attributes": {
-    "title":            { "type": "string", "required": true },
-    "issuer":           { "type": "string", "required": true },
-    "description":      { "type": "text" },
-    "certificateUrl":   { "type": "string", "required": true },
-    "image":            { "type": "media", "multiple": false },
-    "order":            { "type": "integer", "default": 0 }
+    "title": { "type": "string", "required": true },
+    "issuer": { "type": "string", "required": true },
+    "description": { "type": "string" },
+    "certificateUrl": { "type": "string", "required": true },
+    "image": { "type": "media", "multiple": false },
+    "order": { "type": "integer", "default": 0 }
   }
 }
